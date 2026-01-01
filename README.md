@@ -36,7 +36,7 @@ The system is built in tiers, each adding complexity and capability:
 
 ### System Topology
 
-```mermaid
+```bash
 graph TD
     Client[Client Application] --> Router[Cluster Router (CRC32 Sharding)]
     Router -->|Shard 0| Node0[Master Node 0]
